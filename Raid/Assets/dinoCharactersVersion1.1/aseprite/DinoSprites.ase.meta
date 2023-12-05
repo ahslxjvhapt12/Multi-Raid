@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: bf3718f43c083d24aa84c5ee78c62ba9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: DinoSprites_Frame_0
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 15
+      height: 17
+    spriteID: 52790abbc168dfa4db7a39650ef1042e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: DinoSprites_Frame_1
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 81
+      width: 15
+      height: 17
+    spriteID: 0ca9af4886e56d648a65cb2ecba21c16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 81}
+  - name: DinoSprites_Frame_2
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 54
+      width: 15
+      height: 16
+    spriteID: 63d74eb19e095b34ebe3ccaf5d65212f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 54}
+  - name: DinoSprites_Frame_3
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 15
+      height: 17
+    spriteID: 862d0db0b95f3ed4cbc856956310e645
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: DinoSprites_Frame_4
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 78
+      width: 15
+      height: 16
+    spriteID: 36fcae4c079544c43b1ada6382c090ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 78}
+  - name: DinoSprites_Frame_5
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 102
+      width: 15
+      height: 16
+    spriteID: e7ca8ed5c785fc149928131ea6de028b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 102}
+  - name: DinoSprites_Frame_6
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 4
+      width: 15
+      height: 17
+    spriteID: a10feaf1c7db04d46a58b66a3e10b87a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 4}
+  - name: DinoSprites_Frame_7
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 4
+      width: 15
+      height: 16
+    spriteID: d320af2ac67a5f142aaa6dfcf5072989
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 4}
+  - name: DinoSprites_Frame_8
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 28
+      width: 15
+      height: 16
+    spriteID: 8341a5659fb0ca04597d91ddf8a9ca12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 28}
+  - name: DinoSprites_Frame_9
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 29
+      width: 15
+      height: 17
+    spriteID: 41aa79fc445303f4db0e813d4c875283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 29}
+  - name: DinoSprites_Frame_10
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 54
+      width: 15
+      height: 17
+    spriteID: b7a91f989fa1f2844be318d30e5bcd5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 54}
+  - name: DinoSprites_Frame_11
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 79
+      width: 15
+      height: 17
+    spriteID: 5a182e861c944e444b175cf4b3f6abcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 79}
+  - name: DinoSprites_Frame_12
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15
+      height: 18
+    spriteID: 889ed3a08bc52e2429e60b51eb50fcae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: DinoSprites_Frame_13
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 104
+      width: 15
+      height: 17
+    spriteID: c3617a00ea440b4458bfbeeb22a8c35a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 104}
+  - name: DinoSprites_Frame_14
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 30
+      width: 15
+      height: 18
+    spriteID: ec47d6e264c2edb4b8ce58241f7dda76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 30}
+  - name: DinoSprites_Frame_15
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 15
+      height: 17
+    spriteID: b8b93c194981a3547a590213eb2bad1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: DinoSprites_Frame_16
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 29
+      width: 15
+      height: 17
+    spriteID: 9e366ba4d762e7d4f92c3d701b4884f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 29}
+  - name: DinoSprites_Frame_17
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.21428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 18
+      height: 14
+    spriteID: a4429373d1538aa46ba53a181da6b43b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: DinoSprites_Frame_18
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 52
+      width: 18
+      height: 13
+    spriteID: 6694b8a3275382c4eac70b0f5c34d5fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 52}
+  - name: DinoSprites_Frame_19
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.21428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 26
+      width: 18
+      height: 14
+    spriteID: 23f7ec908d2b517498e2c637d556fc7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 26}
+  - name: DinoSprites_Frame_20
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 48
+      width: 18
+      height: 14
+    spriteID: 9130016a10fe124478448dc9455a2595
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 48}
+  - name: DinoSprites_Frame_21
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 73
+      width: 18
+      height: 13
+    spriteID: cee8cc4eb7597c14abf032d6c11f7b74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 73}
+  - name: DinoSprites_Frame_22
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.21428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 70
+      width: 18
+      height: 14
+    spriteID: 208637e19bc194f4d8a0c30354f744f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 70}
+  - name: DinoSprites_Frame_23
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 92
+      width: 18
+      height: 14
+    spriteID: 5da0b12cec930f242be591ce761ba19e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 92}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 476478804
+    name: DinoSprites
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: DinoSprites_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: 52790abbc168dfa4db7a39650ef1042e
+    - name: DinoSprites_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: 0ca9af4886e56d648a65cb2ecba21c16
+    - name: DinoSprites_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 16
+      spriteId: 63d74eb19e095b34ebe3ccaf5d65212f
+    - name: DinoSprites_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: 862d0db0b95f3ed4cbc856956310e645
+    - name: DinoSprites_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 4
+        width: 15
+        height: 16
+      spriteId: 36fcae4c079544c43b1ada6382c090ff
+    - name: DinoSprites_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 16
+      spriteId: e7ca8ed5c785fc149928131ea6de028b
+    - name: DinoSprites_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: a10feaf1c7db04d46a58b66a3e10b87a
+    - name: DinoSprites_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 4
+        width: 15
+        height: 16
+      spriteId: d320af2ac67a5f142aaa6dfcf5072989
+    - name: DinoSprites_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 16
+      spriteId: 8341a5659fb0ca04597d91ddf8a9ca12
+    - name: DinoSprites_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: 41aa79fc445303f4db0e813d4c875283
+    - name: DinoSprites_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: b7a91f989fa1f2844be318d30e5bcd5d
+    - name: DinoSprites_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 3
+        width: 15
+        height: 17
+      spriteId: 5a182e861c944e444b175cf4b3f6abcc
+    - name: DinoSprites_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 18
+      spriteId: 889ed3a08bc52e2429e60b51eb50fcae
+    - name: DinoSprites_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 17
+      spriteId: c3617a00ea440b4458bfbeeb22a8c35a
+    - name: DinoSprites_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 4
+        y: 3
+        width: 15
+        height: 18
+      spriteId: ec47d6e264c2edb4b8ce58241f7dda76
+    - name: DinoSprites_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 3
+        width: 15
+        height: 17
+      spriteId: b8b93c194981a3547a590213eb2bad1a
+    - name: DinoSprites_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 3
+        width: 15
+        height: 17
+      spriteId: 9e366ba4d762e7d4f92c3d701b4884f7
+    - name: DinoSprites_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 6
+        y: 3
+        width: 18
+        height: 14
+      spriteId: a4429373d1538aa46ba53a181da6b43b
+    - name: DinoSprites_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 6
+        y: 5
+        width: 18
+        height: 13
+      spriteId: 6694b8a3275382c4eac70b0f5c34d5fe
+    - name: DinoSprites_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 3
+        width: 18
+        height: 14
+      spriteId: 23f7ec908d2b517498e2c637d556fc7f
+    - name: DinoSprites_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 6
+        y: 4
+        width: 18
+        height: 14
+      spriteId: 9130016a10fe124478448dc9455a2595
+    - name: DinoSprites_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 6
+        y: 5
+        width: 18
+        height: 13
+      spriteId: cee8cc4eb7597c14abf032d6c11f7b74
+    - name: DinoSprites_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 6
+        y: 3
+        width: 18
+        height: 14
+      spriteId: 208637e19bc194f4d8a0c30354f744f4
+    - name: DinoSprites_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 6
+        y: 4
+        width: 18
+        height: 14
+      spriteId: 5da0b12cec930f242be591ce761ba19e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 24, y: 24}
