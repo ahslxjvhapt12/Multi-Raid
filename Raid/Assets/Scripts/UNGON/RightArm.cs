@@ -8,24 +8,24 @@ public class RightArm : UNGONARM
     public override IEnumerator Dash()
     {
         yield return null;
-        Debug.Log("dash");
+        Debug.Log("LeftArmdash");
     }
 
     public override IEnumerator Idle()
     {
         yield return null;
-        Debug.Log("idle");
+        Debug.Log("LeftArmidle");
     }
 
     public override IEnumerator ReturnAttack()
     {
         yield return null;
-        Debug.Log("return");
+        Debug.Log("LeftArmreturn");
     }
 
     public override IEnumerator ShootBullet()
     {
         yield return null;
-        Debug.Log("shoot");
+        Debug.Log("LeftArmshoot");
     }
 }
