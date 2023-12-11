@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DealDamageOnContact : MonoBehaviour
+public class DealDamageOnContactBoss : MonoBehaviour
 {
     float _damage = 0;
 
@@ -10,16 +10,16 @@ public class DealDamageOnContact : MonoBehaviour
     {
         _damage = knifeDamage;
     }
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //Debug.Log($"{collision.gameObject.name} is hit");
 
         if (collision.attachedRigidbody == null) return;
 
-        if (collision.attachedRigidbody.TryGetComponent<BossHealth>(out BossHealth bossHealth))
+        if (collision.attachedRigidbody.TryGetComponent<PlayerHealth>(out PlayerHealth health))
         {
-            bossHealth.TakeDamage(_damage);
+            health.TakeDamage(_damage);
         }
     }
 }

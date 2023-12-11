@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-// ¿õ¾ð ÁÂÆÄ
-public abstract class UNGONARM : MonoBehaviour
+public abstract class UNGONARM : NetworkBehaviour
 {
     public abstract PlayerMovement GetNearPlayer();
     public abstract IEnumerator Dash();

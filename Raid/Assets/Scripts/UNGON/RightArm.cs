@@ -4,9 +4,10 @@ using System.Linq;
 using UnityEngine;
 using DG.Tweening;
 
+// ¿õ¾ð ¿ìÆÄ
 public class RightArm : UNGONARM
 {
-    
+
     Vector2 originPos;
     Rigidbody2D _rigid;
 
@@ -37,29 +38,46 @@ public class RightArm : UNGONARM
     {
         PlayerMovement player = GetNearPlayer();
 
-        Vector2 dir = transform.position - player.transform.position;
-        _rigid.AddForce(dir.normalized * 100, ForceMode2D.Force);
-        ReturnPosition();
+        Vector2 dir = player.transform.position - transform.position;
+        transform.up = dir;
+
         yield return new WaitForSeconds(1f);
+
+        _rigid.velocity = Vector3.zero;
+        _rigid.AddForce(dir.normalized * 50, ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(2f);
+
+        ReturnPosition();
+
+        yield return new WaitForSeconds(0.5f);
     }
 
     public override IEnumerator ReturnAttack()
     {
         PlayerMovement player = GetNearPlayer();
 
-        transform.DOMove(player.transform.position, Vector2.Distance(transform.position, player.transform.position) * 0.4f);
-        ReturnPosition();
+        Vector2 dir = player.transform.position - transform.position;
+        transform.up = dir;
+
+        yield return new WaitForSeconds(0.3f);
+
+        transform.DOMove(player.transform.position, 0.5f).OnComplete(() =>
+        {
+            ReturnPosition();
+        });
         yield return new WaitForSeconds(1f);
     }
 
     public override IEnumerator ShootBullet()
     {
         yield return null;
-        Debug.Log("LeftArmshoot");
+        Debug.Log("RightArmShoot");
     }
 
     public void ReturnPosition()
     {
-        transform.DOMove(originPos, Vector2.Distance(transform.position, originPos) * 0.4f);
+        transform.rotation = Quaternion.identity;
+        transform.DOMove(originPos, 0.2f);
     }
 }

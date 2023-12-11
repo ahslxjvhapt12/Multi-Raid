@@ -357,6 +357,7 @@ GameObject:
   - component: {fileID: 242727569329706447}
   - component: {fileID: -2130684907322213515}
   - component: {fileID: 6701526052901707118}
+  - component: {fileID: 88168544819480020}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -494,6 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4384e309cc3f0e94594481408d425b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossPrefab: {fileID: 7860385528482191295, guid: 62d5fd8c62a344d4fa0c53052b2682ff, type: 3}
   serverShuriken: {fileID: 7976128619164625203, guid: 1e7c064675814a04094d0a9459f26ede, type: 3}
   clientShuriken: {fileID: 6447421760611904070, guid: 772cae077416af049a66addcf8ab712c, type: 3}
   playerCollider: {fileID: -2130684907322213515}
@@ -637,3 +639,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _followCam: {fileID: 6079734407435220997}
   _ownerCamPriority: 15
+--- !u!114 &88168544819480020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546597485856543928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8328ce99857e67489cdf425f07fe6cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health:
+    m_InternalValue: 100

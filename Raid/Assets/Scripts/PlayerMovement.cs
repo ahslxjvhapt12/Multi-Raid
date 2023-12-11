@@ -31,17 +31,19 @@ public class PlayerMovement : NetworkBehaviour
 
     private void Awake()
     {
-        if (IsHost)
-        {
-            Instantiate(bossPrefab, Vector2.zero, Quaternion.identity);
-        }
-        
         _rigidbody = GetComponent<Rigidbody2D>();
         _mainCam = Camera.main;
         _ammoTxt.text = $"Ammo : {curAmmo}/{maxAmmo}";
         if (!IsOwner) _ammoTxt.text = string.Empty;
     }
 
+    public override void OnNetworkSpawn()
+    {
+        if (IsHost)
+        {
+            Instantiate(bossPrefab, Vector2.zero, Quaternion.identity);
+        }
+    }
     private void Update()
     {
         if (!IsOwner) return;
@@ -133,4 +135,5 @@ public class PlayerMovement : NetworkBehaviour
         _ammoTxt.text = $"Ammo : {curAmmo}/{maxAmmo}";
         _isReloading = false;
     }
+
 }

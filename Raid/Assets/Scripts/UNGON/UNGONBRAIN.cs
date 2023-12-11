@@ -13,7 +13,7 @@ public class UNGONBRAIN : NetworkBehaviour
     {
         _rigid = GetComponent<Rigidbody2D>();
         StartCoroutine(Pattern(arms[0]));
-        StartCoroutine(Pattern(arms[1]));
+        //StartCoroutine(Pattern(arms[1]));
     }
 
     public override void OnNetworkDespawn()
@@ -27,15 +27,18 @@ public class UNGONBRAIN : NetworkBehaviour
 
         while (true)
         {
-            switch (Random.Range(0, 4))
+            switch (Random.Range(0, 3))
             {
                 case 0:
+                    Debug.Log(1);
                     yield return StartCoroutine(arm.Dash());
                     break;
                 case 1:
+                    Debug.Log(2);
                     yield return StartCoroutine(arm.ReturnAttack());
                     break;
                 case 2:
+                    Debug.Log(3);
                     yield return StartCoroutine(arm.ShootBullet());
                     break;
             }
