@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Reflection;
 using TMPro;
 using Unity.Netcode;
 using UnityEngine;
@@ -6,6 +7,7 @@ using UnityEngine;
 public class PlayerMovement : NetworkBehaviour
 {
     private Rigidbody2D _rigidbody;
+    [SerializeField] GameObject bossPrefab;
 
     [SerializeField] GameObject serverShuriken;
     [SerializeField] GameObject clientShuriken;
@@ -29,14 +31,19 @@ public class PlayerMovement : NetworkBehaviour
 
     private void Awake()
     {
+        if (IsHost)
+        {
+            Instantiate(bossPrefab, Vector2.zero, Quaternion.identity);
+        }
+        
         _rigidbody = GetComponent<Rigidbody2D>();
         _mainCam = Camera.main;
         _ammoTxt.text = $"Ammo : {curAmmo}/{maxAmmo}";
+        if (!IsOwner) _ammoTxt.text = string.Empty;
     }
 
     private void Update()
     {
-        //여기는 과제로 제시
         if (!IsOwner) return;
 
         float h = Input.GetAxisRaw("Horizontal");
@@ -49,7 +56,6 @@ public class PlayerMovement : NetworkBehaviour
                 if (_lastThrowTime + _throwCooltime > Time.time) return;
                 curAmmo--;
                 _ammoTxt.text = $"Ammo : {curAmmo}/{maxAmmo}";
-
                 _lastThrowTime = Time.time;
 
                 Vector3 pos = transform.position;

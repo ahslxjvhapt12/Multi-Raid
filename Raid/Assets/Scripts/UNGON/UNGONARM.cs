@@ -5,7 +5,7 @@ using UnityEngine;
 // ¿õ¾ð ÁÂÆÄ
 public abstract class UNGONARM : MonoBehaviour
 {
-    public abstract IEnumerator Idle();
+    public abstract PlayerMovement GetNearPlayer();
     public abstract IEnumerator Dash();
     public abstract IEnumerator ShootBullet();
     public abstract IEnumerator ReturnAttack();

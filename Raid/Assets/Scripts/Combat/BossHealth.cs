@@ -10,6 +10,6 @@ public class BossHealth : NetworkBehaviour
     
     public void TakeDamage(float damage)
     {
-
+        health.Value -= damage;
     }
 }

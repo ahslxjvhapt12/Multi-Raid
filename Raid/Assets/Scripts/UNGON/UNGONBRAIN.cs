@@ -7,9 +7,11 @@ using UnityEngine;
 public class UNGONBRAIN : NetworkBehaviour
 {
     public UNGONARM[] arms = new UNGONARM[2];
+    Rigidbody2D _rigid;
 
     public override void OnNetworkSpawn()
     {
+        _rigid = GetComponent<Rigidbody2D>();
         StartCoroutine(Pattern(arms[0]));
         StartCoroutine(Pattern(arms[1]));
     }
@@ -21,16 +23,23 @@ public class UNGONBRAIN : NetworkBehaviour
 
     private IEnumerator Pattern(UNGONARM arm)
     {
-        YieldInstruction s = new WaitForSeconds(1f);
+        YieldInstruction s = new WaitForSeconds(0.7f);
 
         while (true)
         {
+            switch (Random.Range(0, 4))
+            {
+                case 0:
+                    yield return StartCoroutine(arm.Dash());
+                    break;
+                case 1:
+                    yield return StartCoroutine(arm.ReturnAttack());
+                    break;
+                case 2:
+                    yield return StartCoroutine(arm.ShootBullet());
+                    break;
+            }
             yield return s;
-            //arm.Idle();
-            //arm.Dash();
-            //arm.ShootBullet();
-            //arm.ReturnAttack();
-
         }
     }
 }
