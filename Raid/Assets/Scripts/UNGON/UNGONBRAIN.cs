@@ -12,8 +12,8 @@ public class UNGONBRAIN : NetworkBehaviour
     public override void OnNetworkSpawn()
     {
         _rigid = GetComponent<Rigidbody2D>();
-        StartCoroutine(Pattern(arms[0]));
-        //StartCoroutine(Pattern(arms[1]));
+        //StartCoroutine(Pattern(arms[0]));
+        StartCoroutine(Pattern(arms[1]));
     }
 
     public override void OnNetworkDespawn()

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8200930850887535098}
   - component: {fileID: 7897095216830421876}
   - component: {fileID: 6459965068062151831}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BU-SUNG
   m_TagString: Untagged
   m_Icon: {fileID: 0}

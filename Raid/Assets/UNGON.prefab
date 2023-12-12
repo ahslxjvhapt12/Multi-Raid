@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4352020702142832846}
   - component: {fileID: 6516572587191533606}
   - component: {fileID: 8997343111931886033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,6 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7750480edaaccfd4682290dcb50a3b41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serverBullet: {fileID: 7079833223282924097, guid: a38830828f2f6fa4bb4c4064ad81334f, type: 3}
+  clientBullet: {fileID: 8689986508518800533, guid: 32c51a662d47a5a4ba8ed754022a8ee6, type: 3}
+  IgnoreCollider: {fileID: 0}
 --- !u!50 &4352020702142832846
 Rigidbody2D:
   serializedVersion: 4
@@ -185,7 +188,7 @@ GameObject:
   - component: {fileID: 2685389895665197070}
   - component: {fileID: 756112943335698140}
   - component: {fileID: 4829018705788132051}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +322,7 @@ GameObject:
   - component: {fileID: 7169112141475896004}
   - component: {fileID: 3990743274751325767}
   - component: {fileID: 6649617845106969349}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ungon_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +428,7 @@ GameObject:
   - component: {fileID: 4910795879725150893}
   - component: {fileID: 5071933574580143993}
   - component: {fileID: 5502006786731843705}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +503,7 @@ GameObject:
   - component: {fileID: 5767548758569156076}
   - component: {fileID: 4529324869207899402}
   - component: {fileID: 2191853992224928939}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +579,7 @@ GameObject:
   - component: {fileID: 6409836435455138870}
   - component: {fileID: 7186027650714231623}
   - component: {fileID: 4645729370135908202}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5419223095013053218}
   - component: {fileID: 5211801699673631229}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,9 +753,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 5000
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 5000
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -765,7 +768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3178003365571729323}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +809,7 @@ GameObject:
   - component: {fileID: 8958259395596522593}
   - component: {fileID: 8479374490883054095}
   - component: {fileID: 4766595776666327594}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -892,8 +895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e974fb7e304614a83549b4ef8be988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serverBullet: {fileID: 0}
-  clientBullet: {fileID: 0}
+  serverBullet: {fileID: 7079833223282924097, guid: a38830828f2f6fa4bb4c4064ad81334f, type: 3}
+  clientBullet: {fileID: 8689986508518800533, guid: 32c51a662d47a5a4ba8ed754022a8ee6, type: 3}
   IgnoreCollider: {fileID: 0}
 --- !u!50 &8958259395596522593
 Rigidbody2D:
@@ -986,7 +989,7 @@ GameObject:
   - component: {fileID: 5309683714564821996}
   - component: {fileID: 4451561449545324703}
   - component: {fileID: 6252843270809105532}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UNGON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,6 +1047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a018c60a531db47ad101fa02791b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpBar: {fileID: 5211801699673631229}
 --- !u!114 &7875383650942357619
 MonoBehaviour:
   m_ObjectHideFlags: 0

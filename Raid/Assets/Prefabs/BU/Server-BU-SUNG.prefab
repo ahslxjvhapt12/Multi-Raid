@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Server-BU-SUNG
       objectReference: {fileID: 0}
+    - target: {fileID: 1432951984774870510, guid: 80799be444df34947b449ffbb578a6d7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2453260846564490417, guid: 80799be444df34947b449ffbb578a6d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

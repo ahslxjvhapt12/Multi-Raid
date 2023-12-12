@@ -105,7 +105,7 @@ public class LeftArm : UNGONARM
         var instance = Instantiate(serverBullet, pos, Quaternion.identity);
         instance.transform.right = dir;
 
-        Physics2D.IgnoreCollision(IgnoreCollider, instance.GetComponent<Collider2D>());
+        //Physics2D.IgnoreCollision(IgnoreCollider, instance.GetComponent<Collider2D>());
 
         if (instance.TryGetComponent<Rigidbody2D>(out Rigidbody2D _rigid))
         {
@@ -132,7 +132,7 @@ public class LeftArm : UNGONARM
     {
         var instance = Instantiate(clientBullet, pos, Quaternion.identity);
         instance.transform.right = dir;
-        Physics2D.IgnoreCollision(IgnoreCollider, instance.GetComponent<Collider2D>());
+        //Physics2D.IgnoreCollision(IgnoreCollider, instance.GetComponent<Collider2D>());
 
         if (instance.TryGetComponent<Rigidbody2D>(out Rigidbody2D _rigid))
         {
